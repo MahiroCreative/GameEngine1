@@ -16,4 +16,9 @@ public class Cube1 : MonoBehaviour
         Debug.Log("hit1");
         _delVec = -_delVec;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("trriger1");
+    }
 }
